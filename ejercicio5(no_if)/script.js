@@ -209,5 +209,6 @@ function generar_mensaje() {
 }
 
 function print_message(mensaje) {
-    console.log("Respuesta:", mensaje);
+    //console.log("Respuesta:", mensaje);
+    window.alert("Respuesta:" + mensaje);
 }
