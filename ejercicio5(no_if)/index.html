@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <br>
+    <h1>Bar Manolo</h1>
+    <br>
+
+    <label for="bebidas">Elige la bebida deseada:</label>
+
+    <select id="id_bebidas">
+        <option value="leche">Leche</option>
+        <option value="coca-cola">Coca-cola</option>
+        <option value="cerveza">Cerveza</option>
+    </select>
+
+    <br>
+    <br>
+
+    <label for="edad">¿Qué edad tienes?:</label>
+    <input list="edad" name="edad" id="id_edad" placeholder="500 años máximo">
+
+    <p><button onClick="procesar_pedido()">Hacer pedido</button></p>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

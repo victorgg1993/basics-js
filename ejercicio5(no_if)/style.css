@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    width: 20%;
+    margin: auto;
+    flex-direction: column;
+    background-color: rgb(211, 215, 230);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    padding-top: 1.3em;
+}
